@@ -1,6 +1,7 @@
 package tech.linjiang.pandora;
 
 import tech.linjiang.pandora.database.Databases;
+import tech.linjiang.pandora.expand.ExpandItem;
 import tech.linjiang.pandora.function.IFunc;
 import tech.linjiang.pandora.inspector.attribute.AttrFactory;
 import tech.linjiang.pandora.network.OkHttpInterceptor;
@@ -37,6 +38,10 @@ public final class Pandora {
 
     public void addFunction(IFunc func) {
     }
+
+    public void addExpandItem(ExpandItem item){
+    }
+
 
     public void open() {
     }
