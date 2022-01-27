@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.zhshy7713950'
@@ -25,7 +24,6 @@ android {
 
 dependencies {
     api "com.squareup.okhttp3:okhttp:${versions.OKHTTP}"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 repositories {
     mavenCentral()
